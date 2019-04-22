@@ -1,6 +1,6 @@
 # Build-19H1
 
-There are some changes in the Appx Dependencies, but not a lot has changed in Windows
+There are some changes in the Appx Dependencies, but not a lot has changed in Windows 10 since the previous release.
 
 The 64-bit version of the Windows ADK has a bug where it cannot create a catalog file. This is a known issue for Microsoft, is documented in the release notes, and will be fixed in future release or updates.
 
