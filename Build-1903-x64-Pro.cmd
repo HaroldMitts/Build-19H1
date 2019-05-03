@@ -56,6 +56,7 @@ REM XCopy C:\TMP\Recovery\layoutmodification.xml C:\Mount\Windows\Users\Default\
 
 ::#region Updates (No changes) - Don't forget to update KB# with latest update from http://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20version%201903%20cumulative%20update
 DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\Updates\amd64\windows10.0-kb4495666-x64_9a38cfd2baecbf99be7ce4348d9bf866d7ea9eeb.msu"
+DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\Updates\amd64\windows10.0-kb4497093-x86_2ba977cdffb1c7f7a1a2b2ae40b88dd50c86a609.msu"
 :: KB.msu doesn't work for WinRE - skip adding it but test for future updates
 REM DISM /Add-Package /Image:C:\Mount\WinRE /PackagePath:"C:\TMP\Updates\amd64\windows10.0-kb4495666-x64_9a38cfd2baecbf99be7ce4348d9bf866d7ea9eeb.msu"
 ::#endregion
